@@ -237,3 +237,8 @@ ul {
 a {
     text-decoration: none;
 }
+/*button animation*/
+button:hover {
+    background-color: #392e69;
+    cursor: pointer;
+}
