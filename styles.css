@@ -70,3 +70,37 @@ button {
 .right-side img{
     border-radius: 40px;
 }
+
+
+/*productive user section*/
+.productive-section {
+    margin: auto;
+    padding: 80px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: lavender;
+    border-radius: 15px;
+    max-width: 1200px;
+
+}
+.section-heading {
+    justify-content: center;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 38px;
+    margin-left: 40px;
+    padding-left: 40px;
+}
+.section-fig {
+    display: flex;
+    margin: 40px;
+    justify-content: space-between;
+    gap: 158px;
+}
+.user-stat {
+    display: flex;
+    font-weight: bold;
+    font-size: 84px;
+    color:#4E47FF;
+}
