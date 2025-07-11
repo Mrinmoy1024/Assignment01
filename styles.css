@@ -8,6 +8,7 @@ body {
     font-family: "Raleway";
     margin: 0;
     padding: 0;    
+    background-color: #F5F8FF;
 }
 p {
     color: grey;
@@ -103,4 +104,38 @@ button {
     font-weight: bold;
     font-size: 84px;
     color:#4E47FF;
+}
+
+/*feedback section*/
+.feedback {
+    margin: 60px;
+    padding: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.feedback-caption {
+    font-size: 42px;
+}
+.rating {
+   display: flex;
+   justify-content: space-between;
+   margin: 10px;
+   padding: 10px;
+   gap: 20px;
+}
+.rating-content {
+    background-color: #F2EDED;
+    margin: 20px;
+    padding: 20px;
+}
+.avatar {
+    display: flex;
+    padding: 5px;
+    margin: 5px;
+    
+}
+.avatar img {
+    padding: 5px;
+    margin: 5px;
 }
