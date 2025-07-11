@@ -13,6 +13,9 @@ body {
 p {
     color: grey;
 }
+a {
+    color: grey;
+}
 /*header styles*/
 
 .navBar1 {
@@ -207,4 +210,30 @@ input[type="message"] {
 }
 .get-in-touch-btn {
     margin-top: 30px;
+}
+
+/*footer*/
+footer {
+    text-align: center;
+    align-items: center;
+    margin-left: 600px;
+    max-width: 600px;
+}
+.footerH1 {
+    font-weight: bold;
+    color: #4E47FF;
+    font-size: 100px;
+}
+.footlist {
+    display: flex;
+    
+    margin: 20px;
+    justify-content: space-between;
+}
+ul {
+    list-style: none;
+    
+}
+a {
+    text-decoration: none;
 }
