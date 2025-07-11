@@ -23,7 +23,7 @@ a {
     display: block;
     margin: 0px;  
     padding: 10px;  
-    background-image: url(Assets/hero-bg.png);
+    background-image: url(Assets/Hero-bg.png);
     min-height: 300px;
 }
 
@@ -34,6 +34,7 @@ a {
 }
 
 .logo {
+    font-family: "Inter";
     font-size: 34px;
     font-weight: bolder;
     color: #4E47FF;
@@ -107,6 +108,8 @@ button {
     font-weight: bold;
     font-size: 84px;
     color:#4E47FF;
+    text-align: center;
+    
 }
 
 /*feedback section*/
@@ -119,11 +122,11 @@ button {
 }
 .feedback-caption {
     font-size: 42px;
-    display: block;
+    display: flex;
     
     justify-content: center;
     align-items: center;
-    padding-left: 500px;
+    padding: 100px;
 }
 .rating {
    display: flex;
@@ -220,6 +223,7 @@ footer {
     max-width: 600px;
 }
 .footerH1 {
+    font-family: "Inter";
     font-weight: bold;
     color: #4E47FF;
     font-size: 100px;
